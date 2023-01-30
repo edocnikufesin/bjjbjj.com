@@ -1,0 +1,32 @@
+body {
+    font-family: 'Solitreo', cursive;
+    background-color: #FFD56F;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    font-size: 1.25rem;
+}
+
+ul {
+    ;
+}
+
+.primarylist {
+    list-style-type: none;
+    margin: 5% 25%;
+
+}
+
+@media screen and (max-width: 600px) {
+    .primarylist {
+        margin: 5% 2%;
+    }	
+}
