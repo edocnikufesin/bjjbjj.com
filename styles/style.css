@@ -3,12 +3,17 @@ body {
     background-color: #FFD56F;
 }
 
+header {
+	display: flex;
+}
+
 a {
     font-family: sans-serif;
 }
 
 h1 {
     text-align: center;
+	margin: auto;
 }
 
 li {
