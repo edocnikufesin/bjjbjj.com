@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,16 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
     <title>Blue Belt Demo</title>
     <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-	  <header>
-	      <img src="media/bjjcartoon.png" height="250px">
-	      <h1>Blue Belt Journey</h1>
-	  </header>
-		<main>
-      <ul class="primarylist">
-			  <li><h3>Mount Escapes</h3></li>
-				    <ul>
+</head>
+<body>
+    <header>
+        <img src="media/bjjcartoon.png" height="250px">
+        <h1>Blue Belt Requirements</h1>
+    </header>
+    <main>
+        <ul class="primarylist">
+			  <li><h3 onclick="hideStuff('techList1')">Mount Escapes</h3></li>
+				    <ul id='techList1'>
 					    <li><h4>Insert the Knee</h4></li>
 						  <a href="https://youtu.be/2iB5nlIeZR8?t=379">Insert the Knee Mount Escape by Roy Dean</a>
 					    <li><h4>Foot Drag</h4></li>
@@ -26,26 +26,26 @@
 					    <li><h4>Foot Lift</h4></li>
 						  <a href="https://youtu.be/2iB5nlIeZR8?t=331">Foot Lift Mount Escape by Roy Dean</a>
 					    <li><h4>Head Lock</h4></li>
-						  <a href="https://youtu.be/2iB5nlIeZR8?t=154">Head Lock Mount Escape by Roy Dean</a>
+						   <a href="https://youtu.be/2iB5nlIeZR8?t=154">Head Lock Mount Escape by Roy Dean</a>
 					    <li><h4>Trap the Arm</h4></li>
 					  <a href="https://youtu.be/2iB5nlIeZR8?t=73">Trap The Arm Mount Escape by Roy Dean</a>
 				    </ul>
-			  <li><h3>Side Control Escapes</h3></li>
-				    <ul>
+			  <li><h3 onclick="hideStuff('techList2')">Side Control Escapes</h3></li>
+				    <ul id='techList2'>
 					    <li><h4>Insert the Knee</h4></li>
 					    <li><h4>Go to the Knees: Tap</h4></li>
 					    <li><h4>Go to the Knees: Grab Elbow</h4></li>
 					    <li><h4>Go to the Knees: Roll</h4></li>
 					    <li><h4>Spin-Out: Triangle or Darce</h4></li>
 				    </ul>
-			  <li><h3>Head Lock Escapes</h3></li>
-				    <ul>
+			  <li><h3 onclick="hideStuff('techList3')">Head Lock Escapes</h3></li>
+				    <ul id="techList3">
 					    <li><h4>Frame the Arm</h4></li>
 					    <li><h4>Hook the Leg</h4></li>
 					    <li><h4>Bridge and Roll</h4></li>
 				    </ul>
-			  <li><h3>Guard Sweeps</h3></li>
-				    <ul>
+			  <li><h3 onclick="hideStuff('techList4')">Guard Sweeps</h3></li>
+				    <ul id='techList4'>
 					    <li><h4>Scissor Sweep</h4></li>
 					    <li><h4>Keep Push Sweep</h4></li>
 					    <li><h4>Reverse Scissor Sweep</h4></li>
@@ -54,8 +54,8 @@
 					    <li><h4>Elevator Sweep</h4></li>
 					    <li><h4>Hook Sweep</h4></li>
 				    </ul>
-			  <li><h3>Guard Passing</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList5')">Guard Passing</h3></li>
+				<ul id='techList5'>
 					<li><h4>Over the Leg Pass</h4></li>
 					<li><h4>Under the Leg Pass</h4></li>
 					<li><h4>Hip Block: Knee Push Inside</h4></li>
@@ -64,36 +64,36 @@
 					<li><h4>Double Under</h4></li>
 					<li><h4>(Standing Pass of Choice)</h4></li>
 				</ul>
-			  <li><h3>Chokes from Guard</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList6')">Chokes from Guard</h3></li>
+				<ul id='techList6'> 
 					<li><h4>Palm Up, Palm Up</h4></li>
 					<li><h4>Palm Up, Palm Down</h4></li>
 					<li><h4>Triangle Choke</h4></li>
 					<li><h4>(Choke of Choice)</h4></li>
 				</ul>
-			  <li><h3>Arm Attacks from Guard</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList7')">Arm Attacks from Guard</h3></li>
+				<ul id='techList7'>
 					<li><h4>Armbar</h4></li>
 					<li><h4>Kimura-Telephone Armbar Sequence</h4></li>
 					<li><h4>Armbar Triangle Sequence</h4></li>
 				</ul>
-			  <li><h3>Chokes from Mount</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList8')">Chokes from Mount</h3></li>
+				<ul id='techList8'>
 					<li><h4>Palm Up, Palm Up</h4></li>
 					<li><h4>Palm Up, Palm Down</h4></li>
 					<li><h4>Fist Choke</h4></li>
 					<li><h4>Ezekiel Choke</h4></li>
 					<li><h4>(Choke of Choice)</h4></li>
 				</ul>
-			  <li><h3>Arm Attacks from Mount</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList9')">Arm Attacks from Mount</h3></li>
+				<ul id='techList9'>
 					<li><h4>Slow</h4></li>
 					<li><h4>Upside Down</h4></li>
 					<li><h4>Fast</h4></li>
 					<li><h4>Americana-Armbar Sequence</h4></li>
 				</ul>
-			  <li><h3>Leg Locks</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList10')">Leg Locks</h3></li>
+				<ul id='techList10'>
 					<li><h4>Straight Foot Lock</h4></li>
 					<li><h4>Heel Hook Outside</h4></li>
 					<li><h4>Heel Hook Inside</h4></li>
@@ -101,22 +101,22 @@
 					<li><h4>Knee Bar #1</h4></li>
 					<li><h4>Knee Bar #2</h4></li>
 				</ul>
-			  <li><h3>Torso Throws</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList11')">Torso Throws</h3></li>
+				<ul id='techList11'>
 					<li><h4></h4></li>
 					<li><h4></h4></li>
 				</ul>
-			  <li><h3>Leg Takedowns</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList12')">Leg Takedowns</h3></li>
+				<ul id='techList12'>
 					<li><h4></h4></li>
 					<li><h4></h4></li>
 				</ul>
-			  <li><h3>Eight Step Sequence</h3></li>
-				<ul>
+			  <li><h3 onclick="hideStuff('techList13')">Eight Step Sequence</h3></li>
+				<ul id='techList13'>
 					<li><h4></h4></li>
 				</ul>
 		  </ul>
     </main>		
-	<script src="index.js"></script>
-  </body>
+	<script src="scripts/main.js"></script>
+</body>
 </html>
