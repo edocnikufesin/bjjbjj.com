@@ -54,11 +54,7 @@ li {
     font-size: 1.25rem;
 }
 
-ul > ul {
-    display: none;
-}
-
-.primarylist {
+    .primarylist {
     list-style-type: none;
     margin: 5% 25%;
 
